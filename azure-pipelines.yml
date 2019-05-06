@@ -9,7 +9,7 @@ pool:
   vmImage: 'andrewpsp/basic'
 
 steps:
-- script: npm build
+- script: echo hello
   displayName: 'Invoke build'
 
 - script: |
